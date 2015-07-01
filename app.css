@@ -1,0 +1,124 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(fixed-data-table.min.css);
+
+::-moz-selection, ::selection {
+  background-color: #d54e53;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0.97ex 0.555% auto;
+  font: 400 16px/28px "San Francisco Display", "Roboto", sans-serif;
+  background-color: #000;
+  color: #eaeaea;
+}
+
+input.info { width: 270pt; font-size: 14px; }
+
+div.info { margin: 0 0.333% auto; }
+
+div.info .item.symbol { margin: 8pt 0 4pt 0; font-size: 16px; font-weight: bold; }
+
+.chart .thinkpool.webchart 
+{
+  display: inline-block !important;
+  width: 33.3%; 
+  padding: 1.618pt;
+}
+
+/* app.calc */
+div.app.calc {
+  margin: 1% 0 1%;
+  border: 1px solid #eee;
+  width: 65%;
+  min-width: 800px;
+}
+
+div.app.calc input {
+  border: 0px none;
+  background: transparent none repeat scroll 0% 0%;
+  color: #eaeaea;
+  font-size: 16px;
+  padding: 0;
+  outline: none;
+}
+
+div.app.calc input[type="text"] { width: 90%; }
+
+div.app.calc input[type="button"] {
+  border: 0px none;
+  background: #d04e53;
+  color: #eaeaea;
+  font-size: 14px;
+  padding: 3px;
+  margin: 2px;
+}
+div.app.calc input[type="button"]:hover { background: #ff4e53}
+
+div.app.calc label > span { display: block; }
+div.app.calc label > input[type="radio"] ~ span { display: inline-block; }
+
+[data-row-width] [data-column-width]:hover {
+  background: #4a4a4a none scroll 0% 0%; 
+  cursor: text;
+}
+
+/* data-table */
+div#data-table, div#sample-table { color: #1a1a1a; font-size: 13px; }
+div.nation.flag { 
+  /* display: inline-block; */
+  width: 44px;
+  height: 33px;
+  background: none no-repeat scroll 50% 50% / 85% auto;
+  padding: 0px;
+}
+
+.public_fixedDataTableCell_cellContent, 
+.fixedDataTableCellGroup_cellGroup { white-space: nowrap; }
+
+.public_fixedDataTable_header .public_fixedDataTableCell_main { font-size: 12px; }
+
+/* ****************************************************** */
+/* grid */
+[data-column-width] { 
+  float: left;
+  padding: 4px 12px;
+}
+
+[data-row-width]:before [data-row-width]:after {
+  content: "";
+  display: table;
+}
+
+[data-row-width]:after {
+  clear: both;
+}
+
+/* gutters */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[data-row-width] [data-column-width] { 
+  border-right: 1px solid #eee;
+  display: block; 
+}
+
+[data-row-width] {
+  display: block;
+  overflow: auto;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+[data-column-width]:last-child {
+  border-right: medium none;
+  padding-right: 0;
+}
+
+[data-row-width="2"] > [data-column-width="1"] {width: 50%;}
+[data-row-width="3"] > [data-column-width="1"] {width: 33.333%;}
+[data-row-width="4"] > [data-column-width="1"] {width: 25%;}
