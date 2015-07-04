@@ -70,7 +70,7 @@ div.nation.flag {
   /* display: inline-block; */
   width: 44px;
   height: 33px;
-  background: none no-repeat scroll 50% 50% / 85% auto;
+  background: none no-repeat scroll 45% 60% / 85% auto;
   padding: 0px;
 }
 
@@ -78,6 +78,12 @@ div.nation.flag {
 .fixedDataTableCellGroup_cellGroup { white-space: nowrap; }
 
 .public_fixedDataTable_header .public_fixedDataTableCell_main { font-size: 12px; }
+.public_fixedDataTableCell_cellContent { height: auto; }
+
+a.exname:link { text-decoration: none; }
+a.exname:hover { text-decoration: underline; }
+a.exname:active { text-decoration: underline; }
+a.header.sortable:hover { cursor: pointer; }
 
 /* ****************************************************** */
 /* grid */
