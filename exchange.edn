@@ -80,7 +80,7 @@
  {:nation "HAITI", :exchange "Haitian Stock Exchange", :alias "HSE", :url "http://www.haitianstockexchange.com/hsm/index.php", :headquarters "", :founded ""}
  {:nation "HONDURAS", :exchange "Bolsa Centroamericana de Valores", :alias "BCV", :url "http://www.bcv.hn/", :headquarters "Tegucigalpa", :founded ""}
  {:nation "HONDURAS", :exchange "Bolsa Honduras de Valores", :alias "BHV", :url "http://www.bhv.hn", :headquarters "", :founded ""}
- {:alias "HKEx", :nation "HONG KONG", :exchange "Hong Kong Stock Exchange", :url "https://www.hkex.com.hk/", :notes [:span "NONE"]}
+ {:alias "HKEx", :nation "HONG KONG", :exchange "Hong Kong Stock Exchange", :url "https://www.hkex.com.hk/", :notes [:span "NONE"] :market-cap 3730}
  {:nation "HUNGARY", :exchange "Budapest Stock Exchange", :alias "BET", :url "http://www.bse.hu/", :headquarters "Budapest", :founded "1864"}
  {:nation "ICELAND", :exchange "Iceland Stock Exchange", :alias "OMX Nordic Marke", :url "http://www.omxgroup.com/nordicexchange", :headquarters "Reykjavík", :founded "1985"}
  {:nation "INDIA", :alias "BSE", :exchange "Bombay Stock Exchange", :url "http://www.bseindia.com/"}
