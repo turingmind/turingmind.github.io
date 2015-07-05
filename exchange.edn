@@ -1,4 +1,4 @@
-[{:nation ["INDONESIA" "MALAYSIA" "PHILIPPINES" "SINGAPORE" "THAILAND" "VIET NAM"] :exchange "ASEAN Exchanges", :url "http://www.aseanexchanges.org/", :notes [:span {:data-refs "test"} "NONE"]}
+[{:nation ["INDONESIA" "MALAYSIA" "PHILIPPINES" "SINGAPORE" "THAILAND" "VIET NAM"] :exchange "ASEAN Exchanges", :url "http://www.aseanexchanges.org/"}
  {:alias "ASE", :nation "AFGHANISTAN", :exchange "Afghanistan Stock Exchange"}
  {:nation "ALBANIA", :exchange "Tirana Stock Exchange", :alias "TSE", :url "http://www.tse.com.al/english/", :headquarters "Tirana", :founded "1996"}
  {:nation "ARGENTINA", :exchange "Buenos Aires Stock Exchange", :alias "BCBA", :url "http://www.bcba.sba.com.ar/", :headquarters "Buenos Aires", :founded "1854"}
@@ -51,7 +51,7 @@
  {:nation "CZECH REPUBLIC", :exchange "Prague Stock Exchange", :alias "PX", :url "http://www.pse.cz/", :headquarters "Prague", :founded "1861"}
  {:nation "DENMARK", :exchange "Copenhagen Stock Exchange", :alias "OMX Nordic Market", :url "http://www.omxgroup.com/nordicexchange", :headquarters "Copenhagen", :founded "1620"}
  {:nation "DENMARK", :exchange "GXG Markets", :alias "GXG Markets", :url "http://www.gxgmarkets.com", :headquarters "Horsens", :founded "1998"}
- {:nation "DOMINICAN REPUBLIC", :exchange "Latin American International Financial Exchange", :alias "LAIFEX", :url nil, :headquarters "Guayacanes", :founded "proposed"}
+ {:nation "DOMINICAN REPUBLIC", :exchange "Latin American International Financial Exchange", :alias "LAIFEX", :url nil, :headquarters "Guayacanes", :founded ""}
  {:nation "DOMINICAN REPUBLIC", :exchange "Bolsa de Valores de la República Dominicana", :alias "BVRD", :url "http://www.bolsard.com/", :headquarters "Santo Domingo", :founded ""}
  {:nation "ECUADOR", :exchange "Bolsa de Valores de Guayaquil", :alias "BVG", :url "http://www.mundobvg.com", :headquarters "Guayaquil", :founded ""}
  {:nation "ECUADOR", :exchange "Bolsa de Valores de Quito", :alias "BVQ", :url "http://www.ccbvq.com", :headquarters "Quito", :founded ""}

@@ -27,15 +27,15 @@ div.info .item.symbol { margin: 8pt 0 4pt 0; font-size: 16px; font-weight: bold;
   padding: 1.618pt;
 }
 
-/* app.calc */
-div.app.calc {
+/* .app#calculator */
+div.app#calculator {
   margin: 1% 0 1%;
   border: 1px solid #eee;
   width: 65%;
   min-width: 800px;
 }
 
-div.app.calc input {
+div.app#calculator input {
   border: 0px none;
   background: transparent none repeat scroll 0% 0%;
   color: #eaeaea;
@@ -44,9 +44,9 @@ div.app.calc input {
   outline: none;
 }
 
-div.app.calc input[type="text"] { width: 90%; }
+div.app#calculator input[type="text"] { width: 90%; }
 
-div.app.calc input[type="button"] {
+div.app#calculator input[type="button"] {
   border: 0px none;
   background: #d04e53;
   color: #eaeaea;
@@ -54,10 +54,10 @@ div.app.calc input[type="button"] {
   padding: 3px;
   margin: 2px;
 }
-div.app.calc input[type="button"]:hover { background: #ff4e53}
+div.app#calculator input[type="button"]:hover { background: #ff4e53}
 
-div.app.calc label > span { display: block; }
-div.app.calc label > input[type="radio"] ~ span { display: inline-block; }
+div.app#calculator label > span { display: block; }
+div.app#calculator label > input[type="radio"] ~ span { display: inline-block; }
 
 [data-row-width] [data-column-width]:hover {
   background: #4a4a4a none scroll 0% 0%; 
@@ -78,12 +78,19 @@ div.nation.flag {
 .fixedDataTableCellGroup_cellGroup { white-space: nowrap; }
 
 .public_fixedDataTable_header .public_fixedDataTableCell_main { font-size: 12px; }
-.public_fixedDataTableCell_cellContent { height: auto; }
 
 a.exname:link { text-decoration: none; }
 a.exname:hover { text-decoration: underline; }
 a.exname:active { text-decoration: underline; }
-a.header.sortable:hover { cursor: pointer; }
+a.header.sortable:hover { cursor: pointer; color: #3079ed; }
+
+/* hovercard */
+.hovercard div { 
+  border: 5px solid #9f3434; 
+  background-color: #fff;
+  color: #000;
+}
+#notes-hovercard-body { width: 300px; height: 110px; }
 
 /* ****************************************************** */
 /* grid */
