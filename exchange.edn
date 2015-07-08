@@ -102,7 +102,7 @@
  {:nation "ITALY", :exchange "Borsa Italiana", :alias "BIt", :url "http://www.borsaitaliana.it/homepage/homepage.en.htm", :headquarters "Milan", :founded "1808" :notes "NONE"}
  {:nation "JAMAICA", :exchange "Jamaica Stock Exchange", :alias "JSE", :url "http://www.jamstockex.com/", :headquarters "Kingston", :founded "1968"}
  {:nation "JAPAN", :exchange "Fukuoka Stock Exchange", :url "http://www.fse.or.jp/english/"}
- {:nation "JAPAN", :exchange "Tokyo Stock Exchange", :url "http://www.jpx.co.jp/english/" :alias "JPX" :market-cap 4485 :notes "평균 ±21% (종목별상이)" :data-refs ["http://www.daishin.co.kr/ctx_foreign/sc_new/sub_07_1.html"]}
+ {:nation "JAPAN", :exchange "Tokyo Stock Exchange", :url "http://www.jpx.co.jp/english/" :alias "JPX" :market-cap 4485 :notes "평균 ±22% (주가 가격 구간대별 상이)" :data-refs ["http://www.daishin.co.kr/ctx_foreign/sc_new/sub_07_1.html"]}
  {:nation "JAPAN", :exchange "Nagoya Stock Exchange", :url "http://www.nse.or.jp/e/"}
  {:nation "JAPAN", :exchange "Sapporo Securities Exchange", :url "http://www.sse.or.jp/"}
  {:nation "JAPAN", :exchange "Osaka Securities Exchange", :url ""}
