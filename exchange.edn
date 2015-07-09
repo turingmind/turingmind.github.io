@@ -10,7 +10,7 @@
  {:nation "AUSTRALIA", :exchange "Bendigo Stock Exchange", :url "http://www.bendigo.ws/"}
  {:nation "AUSTRALIA", :exchange "National Stock Exchange of Australia", :url "https://www.nsxa.com.au"}
  {:nation "AUSTRALIA", :exchange "Chi-X Global", :url "http://www.chi-x.com/"}
- {:nation "AUSTRIA", :exchange "Wiener Börse (Vienna Stock Exchange)", :alias "WB", :url "http://en.wienerborse.at/", :headquarters "Vienna", :founded "1771" :market-cap 1038}
+ {:nation "AUSTRIA", :exchange "Wiener Börse (Vienna Stock Exchange)", :alias "WB", :url "http://en.wienerborse.at/", :headquarters "Vienna", :founded "1771" :market-cap 1038 :note "NONE"}
  {:nation "AZERBAIJAN", :exchange "Baku Stock Exchange", :alias "BFB", :url "http://www.bfb.az/index.php?lang=en", :headquarters "Baku", :founded "2000"}
  {:nation "BAHAMAS", :exchange "Bahamas Securities Exchange", :alias "BISX", :url "http://www.bisxbahamas.com/", :headquarters "Nassau", :founded ""}
  {:alias "BSE", :nation "BAHRAIN", :exchange "Bahrain Stock Exchange", :url "http://www.bahrainbourse.net/bhb/"}
@@ -18,8 +18,8 @@
  {:alias "DSE", :nation "BANGLADESH", :exchange "Dhaka Stock Exchange", :url "http://www.dsebd.org/"}
  {:nation "BARBADOS", :exchange "Barbados Stock Exchange", :alias "BSE", :url "http://www.bse.com.bb/", :headquarters "Bridgetown", :founded "1987"}
  {:nation "BELARUS", :exchange "Belarusian Currency and Stock Exchange", :alias "BVFB", :url "http://www.bcse.by/eng/", :headquarters "Minsk", :founded "1998"}
- {:nation "BELGIUM", :exchange "Euronext Brussels", :alias "", :url nil, :headquarters "Brussels", :founded "1801"}
- {:nation "BELGIUM", :exchange " Bosnia and Herzegovina", :alias "", :url nil, :headquarters "", :founded ""}
+ {:nation "BELGIUM", :exchange "Euronext Brussels", :alias "", :url nil, :headquarters "Brussels", :founded "1801" :notes "±10%"}
+ {:nation "BELGIUM", :exchange "Bosnia and Herzegovina", :alias "", :url nil, :headquarters "", :founded ""}
  {:nation "BERMUDA", :exchange "Bermuda Stock Exchange", :alias "BSX", :url "http://www.bsx.com/", :headquarters "Hamilton", :founded "1871"}
  {:nation "BHUTAN", :exchange "Royal Securities Exchange", :url "http://www.rsebl.org.bt/"}
  {:nation "BOLIVIA", :exchange "Bolsa Boliviana de Valores", :alias "BVB", :url "http://www.bolsa-valores-bolivia.com", :headquarters "La Paz", :founded "1990"}
@@ -62,8 +62,8 @@
  {:nation "FAROE ISLANDS", :exchange "Faroese Securities Market", :alias "VMF", :url "http://vmf.fo/", :headquarters "Tórshavn", :founded "2004"}
  {:nation "BOSNIA AND HERZEGOWINA", :exchange "Sarajevo Stock Exchange", :alias "SASE", :url "http://217.199.131.154/desktopdefault.aspx?tabid=1", :headquarters "Sarajevo", :founded "2001"}
  {:nation "FIJI", :exchange "South Pacific Stock Exchange", :url "http://www.spse.com.fj/"}
- {:nation "FINLAND", :exchange "Helsinki Stock Exchange", :alias "OMX Nordic Market", :url "http://www.omxgroup.com/nordicexchange", :headquarters "Helsinki", :founded "1912"}
- {:nation "FRANCE", :exchange "Euronext Paris", :alias "Euronext Paris", :url "http://www.boursedeparis.fr/", :headquarters "Paris", :founded "1724"}
+ {:nation "FINLAND", :exchange "Helsinki Stock Exchange", :alias "OMX Nordic Market", :url "http://www.omxgroup.com/nordicexchange", :headquarters "Helsinki", :founded "1912" :notes "종목별상이"}
+ {:nation "FRANCE", :exchange "Euronext Paris", :alias "Euronext Paris", :url "http://www.boursedeparis.fr/", :headquarters "Paris", :founded "1724" :notes "±10%"}
  {:nation "FRANCE", :exchange "MATIF", :alias "MATIF (Euronext)", :url "http://www.matif.fr/", :headquarters "Paris", :founded "1986"}
  {:nation "GEORGIA", :exchange "Georgian Stock Exchange", :alias "SSB", :url "http://www.gse.ge/", :headquarters "Tbilisi", :founded "1999"}
  {:nation "GERMANY", :exchange "Berliner Börse", :alias "Börse Berlin", :url "http://www.berlinerboerse.de/", :headquarters "Berlin", :founded "1685"}
@@ -74,7 +74,7 @@
  {:nation "GERMANY", :exchange "Eurex Exchange", :alias "EUREX", :url "http://www.eurexchange.com/", :headquarters "Frankfurt", :founded "1998"}
  {:nation "GERMANY", :exchange "Frankfurt Stock Exchange", :alias "FWB", :url "http://deutsche-boerse.com/dbag/dispatch/en/kir/gdb_navigation/about_us/20_FWB_Frankfurt_Stock_Exchange", :headquarters "Frankfurt", :founded "1585"}
  {:nation "GIBRALTAR", :exchange "Gibraltar Stock Exchange", :alias "GSX", :url "https://www.gsx.gi", :headquarters "Gibraltar", :founded "2014"}
- {:nation "GREECE", :exchange "Athens Exchange", :alias "ATHEX", :url "http://www.ase.gr/default_en.asp", :headquarters "Athens", :founded "1876"}
+ {:nation "GREECE", :exchange "Athens Exchange", :alias "ATHEX", :url "http://www.ase.gr/default_en.asp", :headquarters "Athens", :founded "1876" :notes "±10-30% (종목별상이, 대형주 ±30%)"}
  {:nation "GUATEMALA", :exchange "Bolsa Nacional de Valores", :alias "BNV", :url "http://www.bvnsa.com.gt/", :headquarters "Guatemala City", :founded "1987"}
  {:nation "GUYANA", :exchange "Guyana Stock Exchange", :alias "GASCI", :url "http://www.gasci.com/", :headquarters "Georgetown", :founded ""}
  {:nation "HAITI", :exchange "Haitian Stock Exchange", :alias "HSE", :url "http://www.haitianstockexchange.com/hsm/index.php", :headquarters "", :founded ""}
@@ -96,11 +96,11 @@
  {:alias "IFB", :nation "IRAN (ISLAMIC REPUBLIC OF)", :exchange "Iran Fara Bourse", :url "http://en.ifb.ir/"}
  {:alias "ISX", :nation "IRAQ", :exchange "Iraq Stock Exchange", :url "http://www.isx-iq.net/isxportal/portal/homePage.html?currLanguage=en"}
  {:alias "ESX", :nation "IRAQ", :exchange "Erbil Stock Exchange", :url "http://erbil-esx.com/"}
- {:nation "IRELAND", :exchange "Irish Stock Exchange", :alias "ISE or ISEQ", :url "http://www.ise.ie/index.asp", :headquarters "Dublin", :founded "1793"}
+ {:nation "IRELAND", :exchange "Irish Stock Exchange", :alias "ISE", :url "http://www.ise.ie/index.asp", :headquarters "Dublin", :founded "1793" :notes "종목별상이"}
  {:nation "IRELAND", :exchange "Irish Enterprise Exchange", :alias "IEX", :url "http://www.ise.ie/index.asp?locID=421&docID=-1", :headquarters "Dublin", :founded "2005"}
  {:alias "TASE", :nation "ISRAEL", :exchange "Tel Aviv Stock Exchange", :url "http://www.tase.co.il/eng/pages/homepage.aspx"}
- {:nation "ITALY", :exchange "Borsa Italiana", :alias "BIt", :url "http://www.borsaitaliana.it/homepage/homepage.en.htm", :headquarters "Milan", :founded "1808" :notes "NONE"}
- {:nation "JAMAICA", :exchange "Jamaica Stock Exchange", :alias "JSE", :url "http://www.jamstockex.com/", :headquarters "Kingston", :founded "1968"}
+ {:nation "ITALY", :exchange "Borsa Italiana", :alias "BIt", :url "http://www.borsaitaliana.it/homepage/homepage.en.htm", :headquarters "Milan", :founded "1808" :notes "정적가격 범위 ±10%; 동적가격 범위 ±5% (단, FTSE/MIB index 포함 종목은 정적, 동적 가격범위가 각각 ±7.5%, ±3.5%)"}
+ {:nation "JAMAICA", :exchange "Jamaica Stock Exchange", :alias "JSE", :url "http://www.jamstockex.com/", :headquarters "Kingston", :founded "1968" :notes "±15%"}
  {:nation "JAPAN", :exchange "Fukuoka Stock Exchange", :url "http://www.fse.or.jp/english/"}
  {:nation "JAPAN", :exchange "Tokyo Stock Exchange", :url "http://www.jpx.co.jp/english/" :alias "JPX" :market-cap 4485 :notes "평균 ±22% (주가 가격 구간대별 상이)" :data-refs ["http://www.daishin.co.kr/ctx_foreign/sc_new/sub_07_1.html"]}
  {:nation "JAPAN", :exchange "Nagoya Stock Exchange", :url "http://www.nse.or.jp/e/"}
@@ -121,16 +121,16 @@
  {:alias "KLSE", :nation "MALAYSIA", :exchange "Bursa Malaysia (Formerly known as Kuala Lumpur Stock Exchange)", :url "http://www.bursamalaysia.com/" :notes "±30%"}
  {:nation "MALDIVES", :exchange "Maldives Stock Exchange", :url "http://www.maldivesstockexchange.com.mv/"}
  {:nation "MALTA", :exchange "Malta Stock Exchange", :alias "Borza Malta", :url "http://www.borzamalta.com.mt/", :headquarters "Valletta", :founded "1992"}
- {:nation "MEXICO", :exchange "Bolsa Mexicana de Valores", :alias "BMV", :url "http://www.bmv.com.mx/", :headquarters "Mexico City", :founded "1886"}
+ {:nation "MEXICO", :exchange "Bolsa Mexicana de Valores", :alias "BMV", :url "http://www.bmv.com.mx/", :headquarters "Mexico City", :founded "1886" :notes "±15%"}
  {:nation "MOLDOVA, REPUBLIC OF", :exchange "Moldova Stock Exchange", :alias "BVM", :url "http://www.moldse.md/default.htm", :headquarters "Chişinău", :founded "1994"}
  {:alias "MSE", :nation "MONGOLIA", :exchange "Mongolian Stock Exchange", :url ""}
  {:nation "SERBIA AND MONTENEGRO", :exchange "Montenegro Stock Exchange", :alias "MNSE", :url "http://www.montenegroberza.com/code/navigate.asp?Id=59", :headquarters "Podgorica", :founded "1993"}
  {:alias "MSEC", :nation "MYANMAR", :exchange "Myanmar Securities Exchange Centre", :url "http://www.msecmyanmar.com/"}
  {:alias "NEPSE", :nation "NEPAL", :exchange "Nepal Stock Exchange", :url "http://www.nepalstock.com.np/"}
- {:nation "NETHERLANDS", :exchange "Euronext Amsterdam", :alias "Euronext Amsterdam", :url "http://www.aex.nl/aex.asp?taal=en", :headquarters "Amsterdam", :founded "1602"}
+ {:nation "NETHERLANDS", :exchange "Euronext Amsterdam", :alias "Euronext Amsterdam", :url "http://www.aex.nl/aex.asp?taal=en", :headquarters "Amsterdam", :founded "1602" :notes "±10%"}
  {:alias "NZX", :nation "NEW ZEALAND", :exchange "New Zealand Exchange", :url "https://www.nzx.com/" :notes "NONE"}
  {:nation "NICARAGUA", :exchange "Bolsa de Valores de Nicaragua", :alias "BVDN", :url "http://www.bolsanic.com", :headquarters "Managua", :founded "1990"}
- {:nation "NORWAY", :exchange "Oslo Stock Exchange", :alias "Oslo Børs", :url "http://www.oslobors.no/ob", :headquarters "Oslo", :founded "1819"}
+ {:nation "NORWAY", :exchange "Oslo Stock Exchange", :alias "Oslo Børs", :url "http://www.oslobors.no/ob", :headquarters "Oslo", :founded "1819" :notes "NONE"}
  {:alias "MSM", :nation "OMAN", :exchange "Muscat Securities Market", :url "https://www.msm.gov.om/"}
  {:alias "ISE", :nation "PAKISTAN", :exchange "Islamabad Stock Exchange", :url "http://www.ise.com.pk/ListedCompanies.asp"}
  {:alias "KSE", :nation "PAKISTAN", :exchange "Karachi Stock Exchange", :url "http://www.kse.com.pk/"}
