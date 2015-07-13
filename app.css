@@ -68,9 +68,9 @@ div.app#calculator label > input[type="radio"] ~ span { display: inline-block; }
 div#data-table, div#sample-table { color: #1a1a1a; font-size: 12px; }
 div.nation.flag { 
   /* display: inline-block; */
-  width: 40px;
-  height: 30px;
-  background: none no-repeat scroll 45% 60% / 85% auto;
+  width: 36px;
+  height: 27px;
+  background: none no-repeat scroll 45% 60% / 84% auto;
   padding: 0px;
 }
 
