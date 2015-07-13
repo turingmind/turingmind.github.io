@@ -65,11 +65,11 @@ div.app#calculator label > input[type="radio"] ~ span { display: inline-block; }
 }
 
 /* data-table */
-div#data-table, div#sample-table { color: #1a1a1a; font-size: 13px; }
+div#data-table, div#sample-table { color: #1a1a1a; font-size: 12px; }
 div.nation.flag { 
   /* display: inline-block; */
-  width: 44px;
-  height: 33px;
+  width: 40px;
+  height: 30px;
   background: none no-repeat scroll 45% 60% / 85% auto;
   padding: 0px;
 }
@@ -77,7 +77,8 @@ div.nation.flag {
 .public_fixedDataTableCell_cellContent, 
 .fixedDataTableCellGroup_cellGroup { white-space: nowrap; }
 
-.public_fixedDataTable_header .public_fixedDataTableCell_main { font-size: 12px; }
+.public_fixedDataTable_header .public_fixedDataTableCell_main { font-size: 11px; }
+.fixedDataTableRow_rowWrapper .public_fixedDataTable_bodyRow.public_fixedDataTableRow_main:hover .public_fixedDataTableCell_main { background-color: #d7e7ff !important; }
 
 a.exname:link { text-decoration: none; }
 a.exname:hover { text-decoration: underline; }
